@@ -1,0 +1,24 @@
+{
+  "name": "typescript-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"npx tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/docile-imbereyemaso/TypeScript-course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/docile-imbereyemaso/TypeScript-course/issues"
+  },
+  "homepage": "https://github.com/docile-imbereyemaso/TypeScript-course#readme",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
