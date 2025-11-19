@@ -60,7 +60,11 @@ addNewPizza({ name: "Spicy Sausage", price: 11 })
 placeOrder("Chicken Bacon Ranch")
 completeOrder(1)
 
-console.log("Menu:", menu)
-console.log("Cash in register:", cashInRegister)
-console.log("Order queue:", orderQueue)
+// console.log("Menu:", menu)
+// console.log("Cash in register:", cashInRegister)
+// console.log("Order queue:", orderQueue)
+
+type elements = string|number|boolean;
+let examples:elements[]=['docile',23,56,"sharp",true];
+console.log(examples);
  

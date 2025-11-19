@@ -31,8 +31,7 @@ addNewPizza({ name: "BBQ Chicken", price: 12 });
 addNewPizza({ name: "Spicy Sausage", price: 11 });
 placeOrder("Chicken Bacon Ranch");
 completeOrder(1);
-console.log("Menu:", menu);
-console.log("Cash in register:", cashInRegister);
-console.log("Order queue:", orderQueue);
+let examples = ['docile', 23, 56, "sharp", true];
+console.log(examples);
 export {};
 //# sourceMappingURL=index.js.map
